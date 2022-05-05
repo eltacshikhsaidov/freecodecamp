@@ -1,38 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  background-color: rgb(241, 241, 241);
+  width: 90vw;
+  height: 80vh;
+  margin: 5vw auto;
   text-align: center;
+  border-radius: 5px;
+  padding: 1.5vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  margin-top: 10vh;
+  border: none;
+  background-color: rgb(236, 236, 236);
+  padding: 1.5vw;
+  border-radius: 5px;
+  margin-left: 1vh;
+  color: rgb(120, 124, 128);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Input {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Input>button {
+  margin-top: 2vh;
+  margin: 3vh auto;
+  padding: 1vw;
+  border: none;
+  font-size: 2vw;
+  width: 30vw;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Input>button:hover {
+  background-color: rgb(240, 224, 224);
+  color: rgb(120, 124, 128);
+}
+
+.input-field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.input-field>button {
+  margin-top: 10vh;
+  margin-left: 1vw;
+  padding: 1.5vw 2vw;
+  color: rgb(207, 113, 113);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+}
+
+.input-field>button:hover {
+  background-color: rgb(241, 210, 210);
 }
