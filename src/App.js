@@ -1,10 +1,12 @@
 import './App.css';
-import { Input } from './components/Input';
+import Employees from './components/Employess';
+
+// siyahilarin idare olunmasi
 
 function App() {
   return (
     <div className="App">
-      <Input />
+      <Employees />
     </div>
   );
 }
