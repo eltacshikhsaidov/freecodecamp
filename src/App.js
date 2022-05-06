@@ -1,12 +1,10 @@
 import './App.css';
-import Employees from './components/Employess';
-
-// siyahilarin idare olunmasi
+import { Container } from './components/Container';
 
 function App() {
   return (
     <div className="App">
-      <Employees />
+      <Container />
     </div>
   );
 }
